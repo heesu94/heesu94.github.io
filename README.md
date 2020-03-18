@@ -1,6 +1,6 @@
-## heesu94.github.io
+# heesu94.github.io
 
-# React
+## React
 
 *post1
 *post2
