@@ -42,9 +42,11 @@
 
 ### 결과를 Chrome 브라우저로 띄우기
 1. vs code의 확장(Extensions) 메뉴로 진입 한 후 "open in browser"를 다운로드 받는다.
-2. 실행하고자 하는 파일에서 우클릭 후 사용자의 편의에 따라 "Open in Default Browser" 혹은 "Open In Other Browser"를 클릭하여 결과를 확인한다.
+2. 실행하고자 하는 파일에서 우클릭 후 사용자의 편의에 따라 "Open in Default Browser" 혹은 "Open In Other Browser"를 클릭하여 결과를 확인한다.  
+
     - "Open in Default Browser" 단축키 : Alt + B
-    - "Open In Other Browser" 단축키 : Shift + Alt + B
+    - "Open In Other Browser" 단축키 : Shift + Alt + B  
+
 # 
 
 ### 숫자와 문자
@@ -176,7 +178,7 @@
 
 ### 동등 연산자 ==
 ##### 좌항과 우항을 비교하여 서로 값이 같으면 True, 다르면 False가 된다.
-* =은 대입연산자, ==은 동등연산자 이므로 주의!! 
+##### * =은 대입연산자, ==은 동등연산자 이므로 주의!! 
 
     alert(1==1)             // True
     alert(1==3)             // False
@@ -197,8 +199,8 @@
 null은 null타입 undefined는 undefined타입이다.  
 즉, 각각 자체를 타입으로 한다.  
   
-- undefined -> 프로그래머가 의도하지 않은 상태의 값이 없다.
-- null ->  프로그래머가 의도적으로 부여한 상태의 값이 없다.
+##### - undefined -> 프로그래머가 의도하지 않은 상태의 값이 없다.
+##### - null ->  프로그래머가 의도적으로 부여한 상태의 값이 없다.  
 
     var a;
     alert(a); // undefined
@@ -209,6 +211,10 @@ null은 null타입 undefined는 undefined타입이다.
     alert(undefined == null);   // True -> 프로그래머가 의도했던 의도하지 않았던 비었으므로 True
     alert(undefined === null);  // False -> 프로그래머의 의도한것과 의도하지 않은 것 까지 비교하므로 False
 
+
+
+동등연산자는 숫자 1을 True로 간주 숫자 1이 아닌수를 False로 간주
+일치연산자는 
 
 ****************
 TMI : 마크다운 문법도 같이 공부했습니다. ㅎㅎㅎㅎ ~~칭찬해주세요~~
