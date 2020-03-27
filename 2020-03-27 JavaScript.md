@@ -526,9 +526,9 @@ array.push를 array.concat으로 바꾼어 원소를 추가 해줬을 뿐인데 
 * unshift -> 배열의 시작점에 원소를 추가하며, 기존 값들은 index를 1씩 증가시킨다
 ### 
 
-    var array = ['a', 'b', 'c', 'd', 'e'];       
-    li.unshift('z');                        
-    document.write(array + "<br>");         // z,a,b,c,d,e
+        var array = ['a', 'b', 'c', 'd', 'e'];       
+        li.unshift('z');                        
+        document.write(array + "<br>");         // z,a,b,c,d,e
 
 * splice 
 ### 
