@@ -86,9 +86,10 @@ a가 3이므로 첫 조건문인 a===1은 성립하지 못하여 다음 else if�
 
 ### 부정의 의미 !
 ***True를 False로, False를 True***로 바꾼다. not 연산자 라고도 한다.  
-* !true -> false  
-* !false -> true
-
+* !true -> false
+* !false -> true  
+  
+  
     if(!true && !true){     // false, false이므로 결과는 false
         alert(1);
     }
@@ -162,7 +163,7 @@ if문 안에있는 두번째 if else문의 조건이 True 이므로 if문으로 
 
 
 
-### ★ prompt()을 이용한 조건문 로그인 예제★
+### ★ prompt()을 이용한 조건문 로그인 예제 ★
 **prompt() 함수**는 사용자가 입력한 값을 가져와서 변수의 값으로 대입한다.
 
         id = prompt('아이디를 입력하세요');
