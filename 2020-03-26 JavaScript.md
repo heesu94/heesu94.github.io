@@ -216,16 +216,15 @@ null은 null타입 undefined는 undefined타입이다.
 
 * 동등연산자는 숫자 1을 True로 간주, 숫자 1이 아닌수를 False로 간주  
 * 일치연산자는 "True"가 아니면 모든 값 False로 간주  
-##### 
 
-    alert(true == 1);               //true
-    alert(true === 1);              //false
-    alert(true == '1');             //true
-    alert(true === '1');            //false
- 
-    //참고
-    alert(0 === -0);                //true
-    alert(NaN === NaN);             //false, NaN은 0/0과 같은 연산의 결과로 만들어지는 특수한 데이터 형인데 숫자가 아니라는 뜻이다.
+        alert(true == 1);               //true
+        alert(true === 1);              //false
+        alert(true == '1');             //true
+        alert(true === '1');            //false
+    
+        //참고
+        alert(0 === -0);                //true
+        alert(NaN === NaN);             //false, NaN은 0/0과 같은 연산의 결과로 만들어지는 특수한 데이터 형인데 숫자가 아니라는 뜻이다.
 
 
 
